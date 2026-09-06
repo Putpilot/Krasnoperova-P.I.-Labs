@@ -16,7 +16,7 @@
 
 **CWE-552:** Files or Directories Accessible to External Parties (Файлы или директории, доступные внешним сторонам).
 
-**CVE (Common Vulnerabilities and Exposures):** Прямого CVE нет, так как атака не использовала общеизвестную уязвимость в готовом ПО (это был не баг в условном WordPress), а являлась результатом компрометации логики доступа и утечки учетных данных (Credential Stuffing / Insider threat).
+**CVE (Common Vulnerabilities and Exposures):** Прямого CVE нет, так как атака не использовала общеизвестную уязвимость в готовом ПО, а являлась результатом компрометации логики доступа и утечки учетных данных (Credential Stuffing / Insider threat).
 
 ## 3. Как обнаружили: 
 
