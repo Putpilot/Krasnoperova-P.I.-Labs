@@ -12,7 +12,9 @@
 
 **Класс OWASP Top 10: A01:2021** – Broken Access Control (Нарушение контроля доступа) и A05:2021 – Security Misconfiguration (Некорректная настройка безопасности / избыточные права доступа).
 
-**CWE (Common Weakness Enumeration):** CWE-284: Improper Access Control (Ненадлежащий контроль доступа — подрядчик или сотрудник имел доступ к базам, который не должен был иметь в таком объеме).CWE-552: Files or Directories Accessible to External Parties (Файлы или директории, доступные внешним сторонам).
+**CWE (Common Weakness Enumeration):** CWE-284: Improper Access Control (Ненадлежащий контроль доступа — подрядчик или сотрудник имел доступ к базам, который не должен был иметь в таком объеме).
+
+**CWE-552:** Files or Directories Accessible to External Parties (Файлы или директории, доступные внешним сторонам).
 
 **CVE (Common Vulnerabilities and Exposures):** Прямого CVE нет, так как атака не использовала общеизвестную уязвимость в готовом ПО (это был не баг в условном WordPress), а являлась результатом компрометации логики доступа и утечки учетных данных (Credential Stuffing / Insider threat).
 
