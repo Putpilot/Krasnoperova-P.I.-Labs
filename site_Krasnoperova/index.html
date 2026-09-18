@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Сайт визитка</title>
+</head>
+
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav" aria-label="Главная навигация">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#main" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#about-me" class="nav__link">Обо мне</a></li>
+                    <li class="nav__item"><a href="#offers" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ШАПКА -->
+
+    <!-- ПЕРВЫЙ ЭКРАН -->
+    <section id="main" class="hero">
+        <div class="container hero__container">
+
+            <h1 class="hero__title">Профессиональный UX/UI дизайн для бизнеса</h1>
+
+            <div class="hero__content">
+                <p class="hero__subtitle">От идеи до готового макета<br> в Figma за 7 дней.</p>
+                <a href="#contacts" class="btn-primary">Обсудить проект</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- первый экран -->
+
+    <!-- обо мне -->
+    <section id="about-me" class="about">
+        <div class="container about__container">
+
+            <div class="about__image-wrapper">
+                <img src="myphoto.jpg" alt="Полина — веб-дизайнер" class="about__img">
+            </div>
+
+            <div class="about__content">
+                <h2 class="about__title">Привет, Я Полина, веб-дизайнер.</h2>
+                <p class="about__text">
+                    Помогаю брендам находить общий язык с аудиторией через продуманный визуал и удобные
+                    интерфейсы.<br><br>
+                    Не просто рисую красивые картинки, а проектирую пользовательский опыт (UX), который увеличивает
+                    конверсию.
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://behance.net" class="btn-secondary">
+                    Смотреть портфолио
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- обо мне -->
+
+    <!-- мои навыки -->
+    <section id="my-skills" class="skills">
+        <div class="container">
+
+            <!-- Хорошим тоном будет добавить общий заголовок для секции -->
+            <h2 class="skills__title visually-hidden">Мои навыки</h2>
+
+            <div class="skills__grid">
+
+                <!-- Карточка 1 -->
+                <div class="skills__card">
+                    <img class="skills__icon" src="figma-icon.png" alt="">
+                    <div class="skills__info">
+                        <h3 class="skills__name">Figma</h3>
+                        <p class="skills__text">Проектирую чистые, адаптивные интерфейсы и кликабельные прототипы любой
+                            сложности с использованием актуальных дизайн-систем.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 -->
+                <div class="skills__card">
+                    <img class="skills__icon" src="ptsh-icon.png" alt="">
+                    <div class="skills__info">
+                        <h3 class="skills__name">Photoshop</h3>
+                        <p class="skills__text">Создаю эффектную графику, баннеры и кастомный визуальный контент с
+                            помощью профессиональной ретуши и коллажирования.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="skills__card">
+                    <img class="skills__icon" src="ai-icon.png" alt="">
+                    <div class="skills__info">
+                        <h3 class="skills__name">Работа с AI</h3>
+                        <p class="skills__text">Интегрирую нейросети в рабочий процесс для генерации уникального арта,
+                            расширения фонов и ускорения поиска идей.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 4 -->
+                <div class="skills__card">
+                    <img class="skills__icon" src="3d-icon.png" alt="">
+                    <div class="skills__info">
+                        <h3 class="skills__name">3D Моделинг</h3>
+                        <p class="skills__text">Добавляю сайтам глубину и премиальный статус с помощью трендовых
+                            трехмерных элементов и кастомных мокапов.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- мои навыки -->
+
+    <!-- услуги -->
+    <section id="offers" class="offers">
+        <div class="container">
+
+            <div class="price-table">
+                <h2 class="price-table__title">Услуги и стоимость</h2>
+
+                <!-- Главная обертка таблицы -->
+                <div class="price-table__grid">
+
+                    <!-- Шапка таблицы -->
+                    <div class="price-table__row price-table__row--header">
+                        <div class="price-table__th">Услуга</div>
+                        <div class="price-table__th">Что входит в стоимость</div>
+                        <div class="price-table__th">Сроки</div>
+                        <div class="price-table__th">Цена</div>
+                    </div>
+
+                    <!-- Строка 1 -->
+                    <div class="price-table__row">
+                        <div class="price-table__td price-table__td--name">Landing Page</div>
+                        <div class="price-table__td">Anализ конкурентов, структура, уникальный UI/UX дизайн, адаптив под
+                            смартфоны.</div>
+                        <div class="price-table__td">от 5 дней</div>
+                        <div class="price-table__td price-table__td--price">от 15 000 ₽</div>
+                    </div>
+
+                    <!-- Строка 2 -->
+                    <div class="price-table__row">
+                        <div class="price-table__td price-table__td--name">Многостраничный сайт</div>
+                        <div class="price-table__td">Проектирование сложной структуры, дизайн всех типовых страниц,
+                            UI-кит для разработчиков.</div>
+                        <div class="price-table__td">от 12 дней</div>
+                        <div class="price-table__td price-table__td--price">от 35 000 ₽</div>
+                    </div>
+
+                    <!-- Строка 3 -->
+                    <div class="price-table__row">
+                        <div class="price-table__td price-table__td--name">Редизайн & UX-аудит</div>
+                        <div class="price-table__td">Поиск и исправление ошибок старого сайта, полное визуальное и
+                            структурное обновление.</div>
+                        <div class="price-table__td">от 7 дней</div>
+                        <div class="price-table__td price-table__td--price">от 20 000 ₽</div>
+                    </div>
+
+                    <!-- Строка 4 -->
+                    <div class="price-table__row">
+                        <div class="price-table__td price-table__td--name">Сайт на Tilda под ключ</div>
+                        <div class="price-table__td">Полный цикл: от исследования и дизайна в Figma до верстки, анимации
+                            и настройки.</div>
+                        <div class="price-table__td">от 10 дней</div>
+                        <div class="price-table__td price-table__td--price">от 30 000 ₽</div>
+                    </div>
+
+                </div> 
+            </div>
+
+        </div>
+    </section>
+    <!-- услуги -->
+
+    <!-- контакты -->
+    <section id="contacts" class="contacts">
+        <div class="container contacts__container">
+
+            <!-- Левая колонка: Текст и соцсети -->
+            <div class="contacts__info">
+                <h2 class="contacts__title">Хотите профессиональный дизайн для бизнеса?</h2>
+                <p class="contacts__subtitle">Оставляйте заявку<br>или свяжитесь со мной</p>
+
+                <div class="contacts__socials">
+                    <!-- Ссылка на Telegram -->
+                    <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="contacts__link">
+                        <div class="contacts__icon-wrapper">
+                            <img src="telegram.png" alt="">
+                        </div>
+                        <div class="contacts__link-text">
+                            <span>Telegram:</span>
+                            <strong>@putpilot</strong>
+                        </div>
+                        <div>
+                            <img src="Vector.png" alt="">
+                        </div>
+                    </a>
+
+                    <!-- Ссылка на Linkedin -->
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="contacts__link">
+                        <div class="contacts__icon-wrapper">
+                            <img src="linkedin.png" alt="">
+                        </div>
+                        <div class="contacts__link-text">
+                            <span>Linkedin:</span>
+                            <strong>Полина К.</strong>
+                        </div>
+                        <img src="Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Правая колонка: Форма -->
+            <form action="#" method="POST" class="contacts__form">
+                <div class="contacts__form-group">
+                    <label for="form-email" class="visually-hidden">Email</label>
+                    <input type="email" id="form-email" class="contacts__input" placeholder="Email" required>
+                </div>
+
+                <div class="contacts__form-group">
+                    <label for="form-name" class="visually-hidden">Ваше имя</label>
+                    <input type="text" id="form-name" class="contacts__input" placeholder="Ваше имя">
+                </div>
+
+                <div class="contacts__form-group">
+                    <label for="form-service" class="visually-hidden">Услуга</label>
+                    <input type="text" id="form-service" class="contacts__input" placeholder="Услуга">
+                </div>
+
+                <div class="contacts__form-group">
+                    <label for="form-message" class="visually-hidden">О чем ваш проект</label>
+                    <textarea id="form-message" class="contacts__textarea" placeholder="О чем ваш проект"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Отправить заявку</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- контакты -->
+
+
+    <footer>
+        <p>Работу выполнила Красноперова Полина ИС-123/9</p>
+    </footer>
+
+</body>
+
+</html>
